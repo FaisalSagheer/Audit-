@@ -218,7 +218,7 @@ const RollingGallery = ({
             width: cylinderWidth,
             transformStyle: "preserve-3d",
           }}
-          className="flex min-h-[200px] cursor-grab items-center justify-center [transform-style:preserve-3d]"
+          className="flex min-h-[500px] cursor-grab items-center justify-center [transform-style:preserve-3d]"
         >
           {images.map((url, i) => (
             <div
@@ -237,7 +237,7 @@ const RollingGallery = ({
                 // onLoad={() => handleImageLoad(i)}
                 className={`pointer-events-none h-[120px] w-[300px] rounded-[15px] border-[3px] border-white object-cover
                            transition-all duration-300 ease-out group-hover:scale-105
-                           sm:h-[100px] sm:w-[220px]
+                           sm:h-[300px] sm:w-[220px]
                           `}
               />
 
