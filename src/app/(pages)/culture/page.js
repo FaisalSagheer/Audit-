@@ -30,6 +30,30 @@ function Culture() {
               molestias dignissimos aspernatur quis nobis omnis fugit ab quidem,
               at magni aperiam saepe? Impedit, distinctio facilis.`,
     },
+    {
+      src: "https://picsum.photos/id/1001/500/500",
+      title: "Adam Willson",
+      description: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              ipsam dolore sint nulla itaque rerum sit, dolor, possimus
+              molestias dignissimos aspernatur quis nobis omnis fugit ab quidem,
+              at magni aperiam saepe? Impedit, distinctio facilis.`,
+    },
+    {
+      src: "https://picsum.photos/id/1001/500/500",
+      title: "Adam Willson",
+      description: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              ipsam dolore sint nulla itaque rerum sit, dolor, possimus
+              molestias dignissimos aspernatur quis nobis omnis fugit ab quidem,
+              at magni aperiam saepe? Impedit, distinctio facilis.`,
+    },
+    {
+      src: "https://picsum.photos/id/1001/500/500",
+      title: "Adam Willson",
+      description: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              ipsam dolore sint nulla itaque rerum sit, dolor, possimus
+              molestias dignissimos aspernatur quis nobis omnis fugit ab quidem,
+              at magni aperiam saepe? Impedit, distinctio facilis.`,
+    },
   ];
   return (
     <div>
@@ -49,7 +73,7 @@ function Culture() {
               </div>
             <div>
               <div>
-                <div className="flex py-12">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 py-12">
                   {cardData.map((item, index) => (
                     <div className="mx-2 border" key={index}>
                       <div className="flex justify-center bg-cover">
