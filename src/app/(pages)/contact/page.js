@@ -5,7 +5,7 @@ import React from 'react'
 function Contact() {
   return (
     <div>
-        <section className="-mt-20 pb-10 bg-[#060010]/20 text-black">
+        <section className="-mt-20 pb-10 bg-secondary text-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-40">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-4xl font-bold">Let's Create Something Amazing</h2>

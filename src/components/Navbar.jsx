@@ -3,13 +3,13 @@
 import PillNav from "./ui/PillNav";
 
 // import logo from '@/./vercel.svg';
-// import logo from "/path/to/logo.svg";
+import Logo from "../../public/vercel.svg";
 
 export const Navbar = () => {
 
   return (
     <PillNav
-      logo="logo"
+      logo={Logo}
       logoAlt="Company Logo"
       items={[
         { label: "Home", href: "/" },

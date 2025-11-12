@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import  Link  from 'next/link';
 import { gsap } from 'gsap';
+import Image from 'next/image';
 
 const PillNav = ({
   logo,
@@ -249,7 +250,7 @@ const PillNav = ({
               background: 'var(--base, #000)'
             }}
           >
-            <img src={logo} alt={logoAlt} ref={logoImgRef} className="w-full h-full object-cover block" />
+            <Image src={logo} alt={logoAlt} ref={logoImgRef} className="w-full h-full object-cover block" />
           </Link>
         ) : (
           <a
