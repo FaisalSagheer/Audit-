@@ -250,7 +250,7 @@ const PillNav = ({
               background: 'var(--base, #000)'
             }}
           >
-            <Image src={logo} alt={logoAlt} ref={logoImgRef} className="w-full h-full object-cover block" />
+            <Image src={logo} alt={logoAlt} ref={logoImgRef} className="w-full h-full block" />
           </Link>
         ) : (
           <a

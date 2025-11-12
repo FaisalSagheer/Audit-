@@ -1,13 +1,7 @@
 "use client";
 
 import PillNav from "./ui/PillNav";
-<<<<<<< HEAD
-
-// import logo from '@/./vercel.svg';
-import Logo from "../../public/vercel.svg";
-=======
 import Logo from "../../public/lorem.svg";
->>>>>>> 1a01db660e26002b6c5d085a5a8104187616a24d
 
 export const Navbar = () => {
 
